@@ -1,0 +1,328 @@
+body, div, p, a, img, ul, li, span, h1, h2, h3, h4, header, nav, main, section, article, footer {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav ul li a {
+	color: #2ecc71;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+    border-right: solid 1px #384148;
+	padding-right: 8px;	
+}
+nav ul li:last-of-type a {
+    border-right: 0px;
+}
+.navbar-collapse ul {
+    padding-top: 10px;
+}
+.navbar-header a {
+    padding-top: 10px;
+}
+.section3 {
+    padding: 30px;
+}
+.threeboxes {
+    text-align: center;
+}
+.section3 .threeboxes a {
+    text-decoration: none;
+}
+.section3 .threeboxes a p {
+    color: #9ea1a2;
+}
+.section3 .threeboxes a h3 {
+    color: #222222;
+}
+.section4 {
+    background-color: #28343c;
+    color: #ffffff;
+    text-align: center;
+}
+.section4 h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.section4 div p {
+    height: 130px;
+    color: #9ea1a2;
+}
+.section5{
+    border-bottom: 5px solid #2ecc71;
+}
+.team{
+    text-align: center;
+}
+.section5 h2{
+    text-align: center;
+    margin: 50px 0 50px 0;
+    color: #222222;
+}
+.section5 img {
+    border: 4px solid #2ecc71;
+    border-radius: 8em;
+}
+.section5 h3{
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.section6, .last-row {
+    background-color: #28343c;
+}
+.section6 div {
+    text-align: left;
+}
+.section6 h3{
+    color: #FFF;
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+}
+.section6 .lsfooter p{
+    color: #9ea1a2;
+    font-size: 14px;
+    border-bottom: solid 1px #384148;
+}
+.section6 .lsfooter p span{
+    color: #2ecc71;
+    width: 120px;
+    padding: 40px 0 15px 0 90px;
+    text-align: left;  
+    font-size: 12px;
+}
+.section6 p:nth-of-type(3) {
+    border-bottom: 0px;
+}
+.section6 .rsfooter p{
+    color: #9ea1a2;
+}
+.section6 .rsfooter p:nth-of-type(2){
+    padding-top: 20px;
+}
+.inner iframe{
+    border: 3px solid #2ecc71;
+    border-radius: 5px;
+}
+#video1, #video2{
+    max-width: 100%;
+}
+@media (max-width: 700px) {
+	#video1, #video2{
+        max-width: 50%;
+    }   
+}
+@media (max-width: 1032px) {
+	.section4 #dor {
+        margin-bottom: 43px;
+    }   
+}
+.last-row {
+    padding-top: 20px;
+}
+.last-row .icons {
+    text-align: right;
+    padding-right: 50px;
+}
+.icons img {
+    width: 30px;
+    height: auto;
+    opacity: 0.7;
+}
+.icons img:hover {
+    opacity: 1;
+}
+.rights-reserved p {
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #9ea1a2;
+    font-size: 12px;    
+    letter-spacing: 2px;
+}
+.inner {
+    width: 66%;
+    margin: 0 auto;
+}
+.content-part {
+    margin-top: 70px;
+}
+.aboutus2 h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;  
+}
+.aboutus2 h2{
+     border-bottom: 3px solid #2ecc71;
+}
+.aboutus2 {
+    margin: 10px;
+ }
+.aboutus2 p:first-of-type{
+    padding-top: 20px;
+    
+ }
+ .aboutus2 p{
+     font-size: 17px;
+    text-align: justify;
+ }
+.aboutus2 .inner {
+    width: 66%;
+}
+
+.aboutus2 p:first-of-type {
+    color: #9ea1a2;
+ }
+ .aboutus2 p:last-of-type {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+ }
+  .aboutus2 p:last-of-type span:last-of-type{
+    color: #2ecc71;
+ }
+ .aboutus-footer, .contacts-footer, .products-footer {
+    border-top: 5px solid #2ecc71;
+}
+i {
+    padding-right: 7px;
+    color: #2ecc71;
+}
+.section5 img {
+	-webkit-filter: grayscale(0.5);
+    -moz-filter: grayscale(0.5);
+    filter: grayscale(0.5);
+}
+.section5 img:hover {
+    transition: all 0.5s ease;
+	-webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.psection1{
+    margin: 90px 0 50px 0;
+}
+.psection1 .products a{
+    text-decoration: none;
+}
+.products h3{
+    color: #28343c;
+}
+.products{
+    text-align: center;
+    height: 400px;
+    margin: 20px 0 20px 0;
+}
+.products img {
+    max-width: 100%;
+    height: auto;
+}
+.products a p {
+    color: #9ea1a2;
+}
+.cssmenu {
+  z-index: 2;
+  background: #28343c;
+  list-style: none;
+  margin-top: 70px;
+  padding: 0 !important;
+  font-size: 17px;
+  text-align: center;
+}
+.cssmenu li {
+  font: 67.5% "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  list-style: none;
+}
+.cssmenu a {
+  background: #28343c;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+  transition: all 0.2s ease;
+}
+.cssmenu a:hover {
+  background: #2ecc71 url("img/hover.gif") left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+.cssmenu h3{
+    color: #fff;
+}
+.csection1{
+    margin-top: 80px;
+}
+.google-maps{
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+    border: 4px solid #2ecc71;
+}
+.google-maps iframe{  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.map-info h2, .fitbit h3{
+    color: #384148;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2ecc71;
+}
+.map-info p {
+    color: #384148;
+    padding: 20px 0 10px 0;
+    font-size: 17px;
+}
+.map-info p span{
+    color: #2ecc71;
+}
+.contact-form{
+    margin: 20px 0 20px -15px;
+}
+.product1{
+    margin: 90px 0 30px 0;
+}
+.fitbit p{
+    color: #9ea1a2;
+    padding: 20px 0 20px 0;
+}
+.pricing div {
+    color: #2ecc71;
+    font-weight: bold;  
+}
+.buy-button{
+    margin-left: 0px;
+}
+.fitb-video iframe {
+    border: 3px solid #2ecc71;
+    border-radius: 5px;
+}
+ .fitb-news a{
+    text-decoration: none;
+	font-size: 18px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #384148;
+    margin-bottom: 20px;
+ }
+.fitb-news a:hover{
+   color: #2ecc71;
+   text-decoration: none;
+}
+.buy p:last-of-type{
+     margin-bottom: 120px;
+}
+.buy p {
+    color: #9ea1a2;
+}
